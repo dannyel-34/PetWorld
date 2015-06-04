@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/05/2015, 05:46:13 PM
+    Author     : DANIEL
+*/
+
+/* Default site-wide font */
+body, p, td, div {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.15in;
+	line-height: 0.25in;
+}
+/*
+ul {
+	list-style-type: none;
+	list-style-image: url("/img/bullet_ul.gif");
+}
+*/
+hr {
+	page-break-before: always;
+	display: none;
+}
+.cuerpo_oculto, .cuerpo_selected {
+	page-break-after: always;
+}
+.subtitulo {
+	color: #ff8000;
+	font-weight: bold;
+	margin-top: 1em;
+}
+a img {
+	border: 0px;
+}
+.noprint,
+.pagination,
+#tools_container,
+#header .perros, #header .gatos, #header .otras_mascotas,
+#header_purple .perros, #header_purple .gatos, #header_purple .otras_mascotas,
+#header_orange .perros, #header_orange .gatos, #header_orange .otras_mascotas,
+#header_lightblue .perros, #header_lightblue .gatos, #header_lightblue .otras_mascotas,
+#mainnav,
+#int_left,
+#imagen_tipo_especie,
+#right,
+#fonav,
+#left_lahuella_cont,
+#lahuella_home,
+.separator,
+#div_volver,
+.parche,
+#boton_imprimir,
+#footer,#img_fo,#img_mitocondria {
+	display: none;
+}
+#img_fo_print {
+	display: block;
+	width: 244px;
+	height: 65px;
+	background-image: url(/img/print/dragpharma.gif);
+	background-repeat: no-repeat;
+}
+#img_mitocondria_print {
+	display: block;
+	width: 19px;
+	height: 19px;
+	background-image: url(/img/print/mitocondria.gif);
+	background-repeat: no-repeat;
+	float: right;
+}

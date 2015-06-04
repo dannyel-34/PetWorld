@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/05/2015, 11:35:59 PM
+    Author     : DANIEL
+*/
+
+body{
+  font-family: Arial;
+  background-color: #00CC00;
+  padding: 50px;
+}
+
+#cc1{
+  position: absolute;
+  top: -1px;
+  border: 1px solid #eee;
+  border-bottom: 5px inset #444;
+  width: 100%;
+  height: 7%;
+  left: 1px;
+  background-color: #eee;
+}
+
+ul, ol{
+    list-style: none;
+    
+}
+
+.nav > li {
+    float:right;
+    right: 190px;
+    padding-right: 37px;
+}
+
+.imgesss{
+    position: absolute;
+    top: 13px;
+    right: 225px;
+
+}
+.nav li a {
+    background-color:#eee;
+    color:#000000;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+   background-color:#434343;
+   color: #FFF;
+}
+			
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:130px;
+}
+			
+.nav li:hover > ul {
+   display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+   right:-134px;
+   top:0px;
+}
+
+#bb1{
+    position: absolute;
+    border: 1px solid #eee;
+    border-bottom: 5px inset #333333;
+    width: 60%;
+    height: 40%;
+    border-radius: 18px;
+    background: #eee;
+     top: 241px;
+    left: 238px;
+    -webkit-box-shadow: 11px 11px 30px 2px #303030;
+    box-shadow: 11px 11px 30px 2px #303030;
+
+}
+
+.hh1{
+    position: absolute;
+    top: 44px;
+    left: 25px;
+
+   
+}
+
+#cle1, h1{
+    font-family: fantasy;
+    font-size: 37px;
+ 
+}
+
+.link1{
+    text-decoration: none;
+    font-family: fantasy;
+    color: #ff3300;
+    font-size: 26px;
+    position: absolute;
+    top: 212px;
+    left: 630px;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    text-shadow: 7px 8px 10px #7D7D7D;
+}
+
+.link1:hover{
+    color: #3300cc;
+    text-shadow: 8px 8px 9px #669999;
+}
+
+
+p{
+    position: absolute;
+    top: 72px;
+    font-family: fantasy;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#cle1{
+  
+    border: 1px solid #eee;
+    width: 100%;
+    height: 24%;
+    border-radius: 18px 18px 1px 1px;
+    background: #0052A4;
+}
+
+#immm{
+  position: absolute;
+  top: -160px;
+  left: -9px;
+  
+
+}
